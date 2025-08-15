@@ -39,7 +39,7 @@ It contains sections for **Home**, **About Me**, and **Contact** with profession
 ## 🚀 How to Run Locally
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/portfolio.git
+   git clone https://github.com/Arpita368/Task-6-python-internship/tree/main.git
    cd portfolio
 2. **Install dependencies**
    ```bash
