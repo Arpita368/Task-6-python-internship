@@ -31,3 +31,24 @@ It contains sections for **Home**, **About Me**, and **Contact** with profession
 ||-index.html
 ||-about_me.html
 ||-contact.html
+
+
+---
+
+## 🚀 How to Run Locally
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/portfolio.git
+   cd portfolio
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+3. **Run the app**
+   ```bash
+   python app.py
+4. **Open in Browser**
+   ```bash
+   http://127.0.0.1:5000
+
+## Author
+Created by Arpita Jitendra Sonparote
