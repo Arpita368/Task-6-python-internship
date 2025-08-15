@@ -12,8 +12,8 @@ It contains sections for **Home**, **About Me**, and **Contact** with profession
   - Contact
 - Professional layout with background images and styled sections.
 - Contact page with clickable **Email**, **LinkedIn**, **GitHub**, and **Phone** links.
-- Organized folder structure with `templates` and `static` directories.
-- Uses **Times New Roman** font for a professional look.
+- Organized folder structure with `templates` directory.
+- Uses **Times New Roman** and **Helvetica Neue** font for a professional look.
 
 ---
 
