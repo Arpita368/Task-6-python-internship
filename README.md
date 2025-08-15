@@ -25,13 +25,14 @@ It contains sections for **Home**, **About Me**, and **Contact** with profession
 ---
 
 ## 📂 Project Structure
+```
 /portfolio
 |--app.py
 |/templates
 ||-index.html
 ||-about_me.html
 ||-contact.html
-
+```
 
 ---
 
