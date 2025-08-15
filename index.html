@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<style>
+html, body {
+    height: 100%; /* Full height */
+    margin: 0;    /* Remove default margin */
+}
+body {
+    background-image: url('https://images.unsplash.com/photo-1513077202514-c511b41bd4c7?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image1 {
+    width: 250px;         
+    height: 250px;            
+    border-radius: 50%;        
+    object-fit: cover;         
+    position: absolute;       
+    top: 100px;                
+    right: 50px;               
+    border: 4px solid white;   
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.info {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.btn {
+  	background-color: #FFAEA5;
+  	color: black;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+</style>
+<body>
+	<header style="background-color: #ffb3c6; padding: 10px; text-align: right;">
+		<b><a href="/about" style="text-decoration: none; color: #333; font-size: 20px; margin-right: 30px; font-family: 'Helvetica Neue', sans-serif;">About</a></b>
+		<b><a href="/contact" style="text-decoration: none; color: #333; font-size: 20px; margin-right: 25px; font-family: 'Helvetica Neue', sans-serif;">Contact</a></b>
+	</header>
+
+    <div>
+		<img class="image1" src="data:image/webp;base64,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">
+	</div>
+	<div class="info">
+		<h1 style="font-size:50px; color:#342D7E;">Hello, I'm Arpita Sonparote</h1>
+		<p style="font-size:30px; margin-left: 120px; color:#342D7E; font-family: 'Helvetica Neue', sans-serif;">Student, Programmer, Artist</p>
+    	<p style="font-size:17px; margin-left: 180px; color:#342D7E; font-family: 'Helvetica Neue', sans-serif;">Welcome to my portfolio website!</p>
+    	<form action="/contact" style="display:inline-block; margin: 0;">
+    		<button class="btn" type="submit" style="font-size:15px; margin-left: 5px; font-family: 'Times New Roman', Times, serif;">Contact Me</button>
+		</form>
+		<form action="/about" style="display:inline-block; margin: 0;">
+    		<button class="btn" type="submit" style="font-size:15px; margin-left: 350px; width:120px; font-family: 'Times New Roman', Times, serif;">About Me</button>
+		</form>
+
+	</div>
+</body>
+
+</html>
